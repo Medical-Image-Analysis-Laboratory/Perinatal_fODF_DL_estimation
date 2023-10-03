@@ -1,6 +1,6 @@
 # Fiber ODF estimation with a deep neural network
 
-Code for paper: Robust Estimation of the Microstructure of the Early Developing Brain Using Deep Learning By: Hamza Kebiri, Ali Gholipour, Rizhong Lin, Lana Vasung and Davood Karimi*, Meritxell Bach Cuadra* (*: Equal contribution)
+Code for paper: Robust Estimation of the Microstructure of the Early Developing Brain Using Deep Learning, by: Hamza Kebiri, Ali Gholipour, Rizhong Lin, Lana Vasung and Davood Karimi*, Meritxell Bach Cuadra* (*: Equal contribution)
 
 
 
