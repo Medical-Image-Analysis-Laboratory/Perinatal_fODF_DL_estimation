@@ -11,11 +11,11 @@ This code contains the code for the papers:
 - `fod_cnn_train.py` to train the CNN to learn FOD predictions from input data
 - `fod_cnn_test.py` to test the CNN
 - `fod_cnn_genDataGS.py` to generate the two gold standards (GS1 and GS2)
-- `dk_aux.py`, `dk_model.py`, `crl_aux.py` and `dk_seg.py` include auxiliary functions (developed by [Davood Karimi](davood.karimi@childrens.harvard.edu)) that are used by the scripts above.
+- `dk_aux.py`, `dk_model.py`, `crl_aux.py` and `dk_seg.py` include auxiliary functions (developed by [Davood Karimi](mailto:davood.karimi@childrens.harvard.edu)) that are used by the scripts above.
 - `MLP` folder contains TrainMLP.py to train the MLP model of Karimi et al., Neuroimage, 2021
 - `CTtrack` folder contains the code of Hosseini et al., Neuroscience Informatics, 2022
 
-Please note that the network code has been reimplemented by [Rizhong Lin](rizhong.lin@epfl.ch) with a newer version of TensorFlow [here](https://github.com/Medical-Image-Analysis-Laboratory/dl_fiber_domain_shift/tree/main/DeepLearning/kebiri_robust_2023). 
+Please note that the network code has been reimplemented by [Rizhong Lin](mailto:rizhong.lin@epfl.ch) with a newer version of TensorFlow [here](https://github.com/Medical-Image-Analysis-Laboratory/dl_fiber_domain_shift/tree/main/DeepLearning/kebiri_robust_2023). 
 
 ## Data
 
