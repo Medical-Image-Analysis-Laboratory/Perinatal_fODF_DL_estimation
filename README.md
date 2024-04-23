@@ -19,7 +19,7 @@ Please note that the network code has been reimplemented by [Rizhong Lin](mailto
 
 ## Data
 
-The data used in this study are from the [Developing Human Connectome Project (dHCP)](https://www.humanconnectome.org/study/lifespan-developing-human-connectome-project), and a private dataset of fetal MRI scans which is not publicly available.
+The data used in this study are from the publicly available dataset of the [Developing Human Connectome Project (dHCP)](https://www.humanconnectome.org/study/lifespan-developing-human-connectome-project), and two private datasets of fetal and neonatal MRI scans.
 
 ## Citation
 
