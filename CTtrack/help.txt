@@ -1,0 +1,58 @@
+
+usage: convtract.py [-h] [-labels LABELS] [-trained_model_dir model_dir]
+                    [-save_dir SAVE_DIR] [-algorithm ALGORITHM]
+                    [-num_tracts NUM_TRACTS] [-min_length MIN_LENGTH]
+                    [-max_length MAX_LENGTH]
+                    [-train_batch_size TRAIN_BATCH_SIZE]
+                    [-track_batch_size TRACK_BATCH_SIZE] [-bm BM] [-wm WM]
+                    [-lr LEARNING_RATE] [--epochs EPOCHS]
+                    [-dropout_prob DROPOUT_PROB] [-split_ratio SPLIT_RATIO]
+                    -action -data
+
+positional arguments:
+  -action               Action to take
+  -data                 path to a directory containing dwi and bval/bvec
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -labels LABELS        path to a directory containing ground truth SH.
+  -trained_model_dir model_dir
+                        trained model (.hdf5)
+  -save_dir SAVE_DIR    directory to save trained model or generated
+                        tractogram
+  -algorithm ALGORITHM  Tractography algorithm (deterministic or
+                        probabilistic)
+  -num_tracts NUM_TRACTS
+                        number of streamlines (default 80000)
+  -min_length MIN_LENGTH
+                        min length of streamlines (default 10 mm)
+  -max_length MAX_LENGTH
+                        max length of streamlines (default 250 mm)
+  -train_batch_size TRAIN_BATCH_SIZE
+                        train atch size
+  -track_batch_size TRACK_BATCH_SIZE
+                        track batch size
+  -bm BM                path to brain mask
+  -wm WM                path to white matter mask
+  -lr LEARNING_RATE, --learning_rate LEARNING_RATE
+                        learning rate
+  --epochs EPOCHS       number of epochs
+  -dropout_prob DROPOUT_PROB
+                        dropout probability
+  -split_ratio SPLIT_RATIO
+                        train test split ratio
+
+
+
+Example:
+
+--training:
+
+python3 convtract.py 'train' sample-data/dwi/ -labels sample-data/sh.nii.gz -bm sample-data/bm.nii.gz -wm sample-data/wm.nii.gz -save_dir ./
+
+
+
+--tracking:
+
+python3 convtract.py 'track' sample-data/dwi/ -bm sample-data/bm.nii.gz -wm sample-data/wm.nii.gz -trained_model_dir ConvTract.hdf5 
+
