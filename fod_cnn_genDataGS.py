@@ -3,7 +3,7 @@
 """
 Created on Sat Aug 20 08:25:14 2022
 
-@author: ch209389, ch051094
+@author: ch209389, ch235786
 """
 
 import os
