@@ -2,8 +2,10 @@
 
 This code contains the code for the papers:
 
-- [Robust Estimation of the Microstructure of the Early Developing Brain Using Deep Learning](https://link.springer.com/chapter/10.1007/978-3-031-43990-2_28) by Hamza Kebiri, Ali Gholipour, Rizhong Lin, Lana Vasung and Davood Karimi\*, Meritxell Bach Cuadra\* (\*: Equal contribution), and
-- [Deep learning microstructure estimation of developing brains from diffusion MRI: a newborn and fetal study](https://www.sciencedirect.com/science/article/pii/S1361841524001117) by Hamza Kebiri, Ali Gholipour, Rizhong Lin, Lana Vasung, Camilo Calixto, Željka Krsnik and Davood Karimi\*, Meritxell Bach Cuadra\* (\*: Equal contribution)
+- [Deep learning microstructure estimation of developing brains from diffusion MRI: a newborn and fetal study](https://www.sciencedirect.com/science/article/pii/S1361841524001117) by Hamza Kebiri, Ali Gholipour, Rizhong Lin, Lana Vasung, Camilo Calixto, Željka Krsnik and Davood Karimi\*, Meritxell Bach Cuadra\* (\*: Equal contribution), Medical Image Analysis 2024, and
+  
+- [Robust Estimation of the Microstructure of the Early Developing Brain Using Deep Learning](https://link.springer.com/chapter/10.1007/978-3-031-43990-2_28) by Hamza Kebiri, Ali Gholipour, Rizhong Lin, Lana Vasung and Davood Karimi\*, Meritxell Bach Cuadra\* (\*: Equal contribution), MICCAI 2023
+
 
 ## Structure
 
