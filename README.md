@@ -34,7 +34,7 @@ If you find our work useful in your research, please consider citing:
   doi     = {10.1016/j.media.2024.103186},
   author  = {Kebiri, Hamza and Gholipour, Ali and Lin, Rizhong and Vasung, Lana and Calixto, Camilo and Krsnik, Željka and Karimi, Davood and Bach Cuadra, Meritxell},
   year    = {2024},
-  month   = july,
+  month   = jul,
   journal = {Medical Image Analysis},
   volume  = {95},
   pages   = {103186},
