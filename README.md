@@ -29,13 +29,16 @@ If you find our work useful in your research, please consider citing:
 
 ```bibtex
 @article{kebiri_deep_2024,
-  title   = {Deep learning microstructure estimation of developing brains from diffusion MRI: A newborn and fetal study},
+  title   = {Deep learning microstructure estimation of developing brains from diffusion {MRI}: A newborn and fetal study},
   url     = {https://www.sciencedirect.com/science/article/abs/pii/S1361841524001117},
   doi     = {10.1016/j.media.2024.103186},
   author  = {Kebiri, Hamza and Gholipour, Ali and Lin, Rizhong and Vasung, Lana and Calixto, Camilo and Krsnik, Željka and Karimi, Davood and Bach Cuadra, Meritxell},
   year    = {2024},
+  month   = july,
   journal = {Medical Image Analysis},
+  volume  = {95},
   pages   = {103186},
+  issn    = {1361-8415},
 }
 
 @inproceedings{kebiri_robust_2023,
