@@ -3,9 +3,7 @@
 This code contains the code for the papers:
 
 - [Deep learning microstructure estimation of developing brains from diffusion MRI: a newborn and fetal study](https://www.sciencedirect.com/science/article/pii/S1361841524001117) by Hamza Kebiri, Ali Gholipour, Rizhong Lin, Lana Vasung, Camilo Calixto, Željka Krsnik and Davood Karimi\*, Meritxell Bach Cuadra\* (\*: Equal contribution), Medical Image Analysis 2024; and
-  
 - [Robust Estimation of the Microstructure of the Early Developing Brain Using Deep Learning](https://link.springer.com/chapter/10.1007/978-3-031-43990-2_28) by Hamza Kebiri, Ali Gholipour, Rizhong Lin, Lana Vasung and Davood Karimi\*, Meritxell Bach Cuadra\* (\*: Equal contribution), MICCAI 2023
-
 
 ## Structure
 
@@ -22,6 +20,31 @@ Please note that the network code has been reimplemented by [Rizhong Lin](mailto
 ## Data
 
 The data used in this study are from the publicly available dataset of the [Developing Human Connectome Project (dHCP)](https://www.humanconnectome.org/study/lifespan-developing-human-connectome-project), and two private datasets of fetal and neonatal MRI scans.
+
+## Acknowledgements
+
+<table align="center" width="100%">
+  <tr align="center">
+    <td width="20%"><img src="./assets/fns.png" alt="SNSF" style="max-height:150px; width:auto;"></td>
+    <td width="20%"><img src="./assets/nih.png" alt="NIH" style="max-height:150px; width:auto;"></td>
+    <td width="10%"><img src="./assets/nsf.png" alt="NSF" style="max-height:150px; width:auto;"></td>
+    <td width="10%"><img src="./assets/nvidia.png" alt="NVIDIA" style="max-height:150px; width:auto;"></td>
+  </tr>
+</table>
+
+<table align="center" width="100%">
+  <tr align="center">
+    <td width="30%"><img src="./assets/cibm.png" alt="CIBM" style="max-height:150px; width:auto;"></td>
+    <td width="15%"><img src="./assets/chuv.png" alt="CHUV" style="max-width:120px; width:100%; height:auto;"></td>
+    <td width="20%"><img src="./assets/unil.png" alt="UNIL" style="max-width:120px; width:100%; height:auto;"></td>
+    <td width="20%"><img src="./assets/hms.png" alt="Harvard Medical School" style="max-width:120px; width:100%; height:auto;"></td>
+    <td width="20%"><img src="./assets/bch.png" alt="Boston Children's Hospital" style="max-width:120px; width:100%; height:auto;"></td>
+  </tr>
+</table>
+
+We gratefully acknowledge the CIBM Center for Biomedical Imaging (Centre d'Imagerie BioMédicale), a Swiss research center of excellence supported by Lausanne University Hospital (CHUV), University of Lausanne (UNIL), École Polytechnique Fédérale de Lausanne (EPFL), University of Geneva (UNIGE), Geneva University Hospitals (HUG), and the Leenaards and Jeantet Foundations.
+
+This research was supported by grants from the Swiss National Science Foundation (grant 182602); the National Institutes of Health (NIH), including the National Institute of Biomedical Imaging and Bioengineering (R01HD110772, R01EB031849, R01EB032366), the National Institute of Neurological Disorders and Stroke (R01NS128281, R01NS106030), and the Eunice Kennedy Shriver National Institute of Child Health and Human Development (R01HD109395); the NIH Office of the Director (S10OD025111); the National Science Foundation (NSF) (grant 212306); and the Croatian Science Foundation (grant IP-2022-10-5975). This work was also supported by NVIDIA Corporation and utilized NVIDIA RTX A6000 and RTX A5000 GPUs.
 
 ## Citation
 
